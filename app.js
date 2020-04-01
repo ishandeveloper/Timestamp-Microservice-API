@@ -42,7 +42,13 @@ app.get('/api/timestamp/:dateString',(req,res)=>{
     res.end(JSON.stringify(timestamp));
 });
 
+app.use((req,res,next)=>{
+    res.status(400);
 
+    if(req.accepts('html')){
+        res.sendFile(path.join(__dirname + '/views/404.html'));
+    }
+});
 
 
 app.listen(port, () => {
