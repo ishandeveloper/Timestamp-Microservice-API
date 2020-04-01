@@ -1,0 +1,28 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishandeveloper/timestamp-api.git"
+  },
+  "keywords": [
+    "timestamp",
+    "api"
+  ],
+  "author": "ishandeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishandeveloper/timestamp-api/issues"
+  },
+  "homepage": "https://github.com/ishandeveloper/timestamp-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
