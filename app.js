@@ -8,6 +8,14 @@ const getTimestamp = date => ({
     utc: date.toUTCString()
 });
 
+
+const server = http.createServer(requestHandler);
+server.listen(process.env.PORT || 8080, err => {
+    if (err) throw err;
+
+    console.log(`Server running on PORT ${server.address().port}`);
+});
+
 //Requests
 const requestHandler = (req, res) => {
 
@@ -57,12 +65,3 @@ const requestHandler = (req, res) => {
     }
 
 };
-
-
-const server = http.createServer(requestHandler);
-
-server.listen(process.env.PORT || 8080, err => {
-    if (err) throw err;
-
-    console.log(`Server running on PORT ${server.address().port}`);
-});
