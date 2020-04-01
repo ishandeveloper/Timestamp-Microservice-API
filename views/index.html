@@ -123,7 +123,15 @@
         li b {
             color: red;
         }
-
+        li a{
+            text-decoration: none;
+            color: red;
+            transition: all ease-in-out 0.5s;
+        }
+        li a:hover{
+            color:rgb(136, 39, 39);
+            text-decoration: none;
+        }
 
         @media only screen and (max-width: 768px) {
 
@@ -179,12 +187,12 @@
         <div class="col-md-6" id="examples-section">
             <ul>
                 <p id="docs" style="text-align: left;"><b>Examples</b></p>
-                <li style="text-align: left;">Example Input<br><br> <b>/api/timestamp/2015-12-25</b></li><br>
+                <li style="text-align: left;">Example Input<br><br> <b><a target="_blank" href="/api/timestamp/2015-12-25">/api/timestamp/2015-12-25</a></b></li><br>
                 Example Output<br><br> <b style="color:red;">
                     {"unix":1585699200000,"utc":"Wed, 01 Apr 2020 00:00:00 GMT"}
                 </b><br><br>
 
-                <li style="text-align: left;">Example Input<br><br> <b>/api/timestamp/</b></li><br>
+                <li style="text-align: left;">Example Input<br><br> <b><a target="_blank" href="/api/timestamp/">/api/timestamp/</a></b></li><br>
                 Example Output<br><br> <b style="color:red;">
                     {"unix":1585751851261,"utc":"Wed, 01 Apr 2020 14:37:31 GMT"}
                 </b><br>
