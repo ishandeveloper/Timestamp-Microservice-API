@@ -1,28 +1,29 @@
 {
-  "name": "timestamp-api",
+  "name": "timestampapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "timestamps",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ishandeveloper/timestamp-api.git"
+    "url": "git+https://github.com/ishandeveloper/Timestamp-Microservice-API.git"
   },
   "keywords": [
     "timestamp",
-    "api"
+    "api",
+    "microservice"
   ],
   "author": "ishandeveloper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ishandeveloper/timestamp-api/issues"
+    "url": "https://github.com/ishandeveloper/Timestamp-Microservice-API/issues"
   },
-  "homepage": "https://github.com/ishandeveloper/timestamp-api#readme",
+  "homepage": "https://github.com/ishandeveloper/Timestamp-Microservice-API#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "http": "0.0.1-security"
+    "nodemon": "^2.0.2"
   }
 }
