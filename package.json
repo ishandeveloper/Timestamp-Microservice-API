@@ -1,0 +1,24 @@
+{
+  "name": "timestamp-microservice-api",
+  "version": "1.0.0",
+  "description": "An API service that handles a dates, and return the correct unix timestamp, UTC string or simply returns the current unix timestamp and UTC timestamp.",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishandeveloper/Timestamp-Microservice-API.git"
+  },
+  "author": "ishandeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishandeveloper/Timestamp-Microservice-API/issues"
+  },
+  "homepage": "https://github.com/ishandeveloper/Timestamp-Microservice-API#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
