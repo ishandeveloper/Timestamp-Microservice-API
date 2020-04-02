@@ -1,5 +1,5 @@
 ### TIMESTAMP MICROSERVICE API
-An API service that handles a dates, and return the correct unix timestamp, UTC string or simply returns the current unix timestamp and UTC timestamp.
+An API service that handles dates, and return the correct unix timestamp, UTC string or simply returns the current unix timestamp and UTC timestamp.
 
 <pre><a href="https://idevtimestamp.herokuapp.com/">VIEW LIVE DEMO</a></pre>
 
